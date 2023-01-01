@@ -1,0 +1,919 @@
+2022-12-21 08:58:06,456 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\4b\8c9f6485a123aff4b727ae8f77c04fcc16c61a\content
+2022-12-21 08:58:06,468 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 08:58:06,485 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 25ms
+2022-12-21 08:58:06,487 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 08:58:06,665 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 08:58:06,667 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 08:58:06,679 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 08:58:06,729 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 08:58:06,885 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\dc\ecff4e0d6c67a1d5287e62f021ea7c4a9ef06c\content
+2022-12-21 08:58:18,197 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-40) [I84] Testing connection...
+2022-12-21 08:58:18,199 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-40) [I92] Connection OK !
+2022-12-21 08:58:18,201 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-40) [I99] onCreate()
+2022-12-21 08:58:21,120 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 08:58:21,134 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 08:58:22,364 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 08:58:22,380 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 08:58:22,381 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 08:58:22,403 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 08:58:22,403 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:13:23,909 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\78\ed7911e14ac1536d22d836213568adb123a051\content
+2022-12-21 09:13:23,915 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:13:23,919 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 6ms
+2022-12-21 09:13:23,920 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:13:24,040 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:13:24,042 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:13:24,059 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-4) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:13:24,097 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:13:24,099 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\4b\8c9f6485a123aff4b727ae8f77c04fcc16c61a\content
+2022-12-21 09:13:28,153 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:28,181 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:28,182 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:13:28,208 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:13:28,210 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:28,210 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:13:30,734 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:30,757 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I57] supportsCredentialType(otp)
+2022-12-21 09:13:30,821 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-38) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:30,821 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:30,822 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:30,843 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-38) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:30,843 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:30,843 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:30,843 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-38) [I41] getUserByUsername(dora)
+2022-12-21 09:13:30,844 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I41] getUserByUsername(dora)
+2022-12-21 09:13:30,846 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:13:30,860 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:30,861 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:13:41,053 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:41,071 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I57] supportsCredentialType(otp)
+2022-12-21 09:13:41,125 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:41,136 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:dora)
+2022-12-21 09:13:41,136 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I41] getUserByUsername(dora)
+2022-12-21 09:13:43,262 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:43,275 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I113] getUsers: realm=farm
+2022-12-21 09:13:44,228 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-42) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:44,243 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:44,245 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:44,260 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:44,260 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:44,270 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I57] supportsCredentialType(otp)
+2022-12-21 09:13:44,271 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:44,271 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-42) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:45,172 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:45,186 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:13:45,243 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-43) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:45,243 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-38) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:45,243 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:13:45,258 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-43) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:45,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:45,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-38) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:45,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-43) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:45,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-38) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:45,260 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(kiki)
+2022-12-21 09:13:45,295 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f8227015-dd57-4e2e-99a0-2b43c3e00519:kiki)
+2022-12-21 09:13:45,296 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(kiki)
+2022-12-21 09:16:54,558 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\76\478ee4772fee2354bbc47bde6deb6d1864acc4\content
+2022-12-21 09:16:54,559 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:16:54,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 5ms
+2022-12-21 09:16:54,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:16:54,708 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:16:54,709 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:16:54,721 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-1) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:16:54,752 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:16:54,753 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\78\ed7911e14ac1536d22d836213568adb123a051\content
+2022-12-21 09:16:57,000 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-43) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:16:57,013 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-43) [I113] getUsers: realm=farm
+2022-12-21 09:16:59,901 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:16:59,912 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:17:00,897 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:17:00,915 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:17:02,416 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-43) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:17:02,445 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-43) [I57] supportsCredentialType(otp)
+2022-12-21 09:17:21,912 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I84] Testing connection...
+2022-12-21 09:17:21,913 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I92] Connection OK !
+2022-12-21 09:17:21,915 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I99] onCreate()
+2022-12-21 09:17:24,514 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:17:24,526 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:17:25,283 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:17:25,298 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f5f7c65d-1b7c-4a51-87a5-a9874dfa1233:dora)
+2022-12-21 09:17:25,299 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:17:25,307 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-41) in getRoleMappings
+2022-12-21 09:17:25,318 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:f5f7c65d-1b7c-4a51-87a5-a9874dfa1233:dora)
+2022-12-21 09:17:25,318 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:17:25,326 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-41) in getRoleMappings
+2022-12-21 09:19:00,036 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\b0\2b22880cbd5150d97a968d73ff9a9e7c49fa61\content
+2022-12-21 09:19:00,041 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:19:00,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 8ms
+2022-12-21 09:19:00,047 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:19:00,202 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:19:00,204 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-3) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:19:00,213 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-3) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:19:00,244 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:19:00,245 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\76\478ee4772fee2354bbc47bde6deb6d1864acc4\content
+2022-12-21 09:19:04,553 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I84] Testing connection...
+2022-12-21 09:19:04,554 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I92] Connection OK !
+2022-12-21 09:19:04,556 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I99] onCreate()
+2022-12-21 09:19:07,537 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-46) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:19:07,548 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-46) [I113] getUsers: realm=farm
+2022-12-21 09:19:08,497 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-46) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:19:08,512 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-46) [I35] getUserById(f:d71689c5-a4ac-4d10-ba15-6b11866ab981:dora)
+2022-12-21 09:19:08,513 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-46) [I41] getUserByUsername(dora)
+2022-12-21 09:19:08,521 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-46) in getRoleMappings
+2022-12-21 09:19:08,524 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-46) [Ljava.lang.Object;@6bb7a60e
+2022-12-21 09:19:08,524 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-46) Uncaught server error: java.lang.NullPointerException
+	at org.keycloak.keycloak-model-jpa@16.1.1//org.keycloak.storage.jpa.JpaUserFederatedStorageProvider.grantRole(JpaUserFederatedStorageProvider.java:519)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.adapter.AbstractUserAdapterFederatedStorage.grantRole(AbstractUserAdapterFederatedStorage.java:188)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.mapGetUser(CustomUserStorageProvider.java:316)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserByUsername(CustomUserStorageProvider.java:246)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserById(CustomUserStorageProvider.java:53)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.user.UserLookupProvider.getUserById(UserLookupProvider.java:44)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.storage.UserStorageManager.getUserById(UserStorageManager.java:287)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.models.cache.infinispan.UserCacheSession.getUserById(UserCacheSession.java:207)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.resources.admin.UsersResource.user(UsersResource.java:223)
+	at jdk.internal.reflect.GeneratedMethodAccessor692.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.constructLocator(ResourceLocatorInvoker.java:107)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.resolveTargetFromLocator(ResourceLocatorInvoker.java:87)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:148)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:249)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:60)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.5.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-12-21 09:20:24,135 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:20:24,158 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:20:31,346 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:20:31,367 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:d71689c5-a4ac-4d10-ba15-6b11866ab981:kiki)
+2022-12-21 09:20:31,369 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(kiki)
+2022-12-21 09:20:31,381 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-41) in getRoleMappings
+2022-12-21 09:20:31,383 INFO  [gov.twk.auth.provider.user.UserRepresentation] (default task-41) [Ljava.lang.Object;@48c7d269
+2022-12-21 09:20:31,383 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-41) Uncaught server error: java.lang.NullPointerException
+	at org.keycloak.keycloak-model-jpa@16.1.1//org.keycloak.storage.jpa.JpaUserFederatedStorageProvider.grantRole(JpaUserFederatedStorageProvider.java:519)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.adapter.AbstractUserAdapterFederatedStorage.grantRole(AbstractUserAdapterFederatedStorage.java:188)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.mapGetUser(CustomUserStorageProvider.java:316)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserByUsername(CustomUserStorageProvider.java:246)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserById(CustomUserStorageProvider.java:53)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.user.UserLookupProvider.getUserById(UserLookupProvider.java:44)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.storage.UserStorageManager.getUserById(UserStorageManager.java:287)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.models.cache.infinispan.UserCacheSession.getUserById(UserCacheSession.java:207)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.resources.admin.UsersResource.user(UsersResource.java:223)
+	at jdk.internal.reflect.GeneratedMethodAccessor692.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.constructLocator(ResourceLocatorInvoker.java:107)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.resolveTargetFromLocator(ResourceLocatorInvoker.java:87)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:148)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:249)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:60)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.5.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-12-21 09:21:45,632 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\c3\ada4619799df41a69729bc887ea2ca7e400da9\content
+2022-12-21 09:21:45,636 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:21:45,641 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 09:21:45,642 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:21:45,800 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:21:45,801 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:21:45,813 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:21:45,841 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:21:45,842 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\b0\2b22880cbd5150d97a968d73ff9a9e7c49fa61\content
+2022-12-21 09:21:50,482 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-48) [I84] Testing connection...
+2022-12-21 09:21:50,483 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-48) [I92] Connection OK !
+2022-12-21 09:21:50,485 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-48) [I99] onCreate()
+2022-12-21 09:21:52,822 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:21:52,835 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I113] getUsers: realm=farm
+2022-12-21 09:21:53,944 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:21:53,960 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:6164e07e-eca9-48a2-9f92-c04ff9ed3368:dora)
+2022-12-21 09:21:53,960 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:21:53,977 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:6164e07e-eca9-48a2-9f92-c04ff9ed3368:dora)
+2022-12-21 09:21:53,977 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:25,959 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\85\d20d02727503d6fea8f33ecb3240f37c4c9620\content
+2022-12-21 09:22:25,963 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-6) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:22:25,969 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 8ms
+2022-12-21 09:22:25,970 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:22:26,086 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:22:26,088 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:22:26,097 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-5) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:22:26,127 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:22:26,128 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\c3\ada4619799df41a69729bc887ea2ca7e400da9\content
+2022-12-21 09:22:33,600 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I84] Testing connection...
+2022-12-21 09:22:33,601 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I92] Connection OK !
+2022-12-21 09:22:33,603 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I99] onCreate()
+2022-12-21 09:22:35,618 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:35,628 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I113] getUsers: realm=farm
+2022-12-21 09:22:36,600 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:36,615 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:36,615 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:36,629 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:36,630 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:36,640 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I57] supportsCredentialType(otp)
+2022-12-21 09:22:36,641 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:36,641 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:38,050 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:38,078 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I57] supportsCredentialType(otp)
+2022-12-21 09:22:38,129 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:38,129 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-49) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:38,129 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-50) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:38,148 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:38,148 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:38,148 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-50) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:38,149 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:22:38,149 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-50) [I41] getUserByUsername(dora)
+2022-12-21 09:22:38,152 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:38,187 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I35] getUserById(f:805ba424-7a27-4a82-8017-a3e635c2927f:dora)
+2022-12-21 09:22:38,187 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-49) [I41] getUserByUsername(dora)
+2022-12-21 09:22:41,687 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:22:41,699 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:24:11,354 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\cb\cfe21eaf7e9a4bfa29ea821f7f104c3c88f845\content
+2022-12-21 09:24:11,356 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:24:11,360 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 5ms
+2022-12-21 09:24:11,363 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:24:11,501 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-4) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:24:11,502 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-7) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:24:11,510 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-7) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:24:11,583 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:24:11,586 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\85\d20d02727503d6fea8f33ecb3240f37c4c9620\content
+2022-12-21 09:24:17,001 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I84] Testing connection...
+2022-12-21 09:24:17,002 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I92] Connection OK !
+2022-12-21 09:24:17,003 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I99] onCreate()
+2022-12-21 09:24:18,983 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:18,996 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I113] getUsers: realm=farm
+2022-12-21 09:24:19,662 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:19,676 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I35] getUserById(f:163a802a-e5b3-4682-ae2c-538a48c6b441:dora)
+2022-12-21 09:24:19,677 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I41] getUserByUsername(dora)
+2022-12-21 09:24:19,689 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:19,695 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I35] getUserById(f:163a802a-e5b3-4682-ae2c-538a48c6b441:dora)
+2022-12-21 09:24:19,696 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I41] getUserByUsername(dora)
+2022-12-21 09:24:19,704 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:19,707 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I57] supportsCredentialType(otp)
+2022-12-21 09:24:19,708 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I35] getUserById(f:163a802a-e5b3-4682-ae2c-538a48c6b441:dora)
+2022-12-21 09:24:19,708 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I41] getUserByUsername(dora)
+2022-12-21 09:24:19,717 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:41,643 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\ed\0da2c604edecdff7f9e007f77281a5c839472c\content
+2022-12-21 09:24:41,648 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:24:41,652 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 09:24:41,653 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:24:41,814 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-4) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:24:41,815 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:24:41,825 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:24:41,850 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:24:41,853 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\cb\cfe21eaf7e9a4bfa29ea821f7f104c3c88f845\content
+2022-12-21 09:24:46,684 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I84] Testing connection...
+2022-12-21 09:24:46,685 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I92] Connection OK !
+2022-12-21 09:24:46,686 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I99] onCreate()
+2022-12-21 09:24:48,743 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:48,754 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:24:49,574 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:49,590 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:49,590 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:24:49,601 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:49,608 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:49,608 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:24:49,615 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:49,619 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:24:49,621 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:49,621 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:24:49,628 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:51,156 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:51,173 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:24:51,223 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-51) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:51,224 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:51,224 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:24:51,241 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:51,242 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [I41] getUserByUsername(dora)
+2022-12-21 09:24:51,242 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:51,244 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:51,245 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I41] getUserByUsername(dora)
+2022-12-21 09:24:51,246 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:24:51,257 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-51) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:51,276 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:51,293 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:24:51,295 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:616f0971-f2b2-4ef8-8bc4-fdc097a16f92:dora)
+2022-12-21 09:24:51,295 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:24:51,328 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:25:57,012 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\ed\da9d211e1be3aa516a056543e18ae62dd4c730\content
+2022-12-21 09:25:57,016 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:25:57,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 8ms
+2022-12-21 09:25:57,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 09:25:57,153 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 09:25:57,153 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 09:25:57,159 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 09:25:57,191 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 09:25:57,194 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\ed\0da2c604edecdff7f9e007f77281a5c839472c\content
+2022-12-21 09:26:03,394 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-53) [I84] Testing connection...
+2022-12-21 09:26:03,395 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-53) [I92] Connection OK !
+2022-12-21 09:26:03,396 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-53) [I99] onCreate()
+2022-12-21 09:26:07,745 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:26:07,756 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 09:26:09,447 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 09:26:09,462 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:0788053f-c1df-4f46-8bdc-ddd12d041f3b:dora)
+2022-12-21 09:26:09,462 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:26:09,471 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:26:09,473 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [Ljava.lang.Object;@233dc654
+2022-12-21 09:26:09,480 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:0788053f-c1df-4f46-8bdc-ddd12d041f3b:dora)
+2022-12-21 09:26:09,480 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:26:09,488 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:26:09,490 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [Ljava.lang.Object;@191b1aeb
+2022-12-21 09:26:09,492 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 09:26:09,494 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:0788053f-c1df-4f46-8bdc-ddd12d041f3b:dora)
+2022-12-21 09:26:09,494 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 09:26:09,502 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: student	909bfc17-ea91-4d6b-8f18-621e19caef95
+2022-12-21 09:26:09,505 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [Ljava.lang.Object;@2605ede4
+2022-12-21 10:29:21,636 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:21,962 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I57] supportsCredentialType(otp)
+2022-12-21 10:29:30,132 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\5a\a9e0159d8cb42c3426d576aba8be61ddbc496d\content
+2022-12-21 10:29:30,136 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-3) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:29:30,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 9ms
+2022-12-21 10:29:30,143 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:29:30,383 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:29:30,384 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:29:30,402 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:29:30,461 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:29:30,602 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\ed\da9d211e1be3aa516a056543e18ae62dd4c730\content
+2022-12-21 10:29:36,165 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I84] Testing connection...
+2022-12-21 10:29:36,166 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I92] Connection OK !
+2022-12-21 10:29:36,168 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I99] onCreate()
+2022-12-21 10:29:38,816 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:38,829 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I113] getUsers: realm=farm
+2022-12-21 10:29:40,222 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-41) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:40,235 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:40,236 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 10:29:40,250 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: manage-account
+2022-12-21 10:29:40,250 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: uma_authorization
+2022-12-21 10:29:40,250 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: view-profile
+2022-12-21 10:29:40,252 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: offline_access
+2022-12-21 10:29:40,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:40,259 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 10:29:40,284 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: manage-account
+2022-12-21 10:29:40,284 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: uma_authorization
+2022-12-21 10:29:40,284 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: view-profile
+2022-12-21 10:29:40,285 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: offline_access
+2022-12-21 10:29:40,288 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I57] supportsCredentialType(otp)
+2022-12-21 10:29:40,289 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:40,290 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [I41] getUserByUsername(dora)
+2022-12-21 10:29:40,300 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: manage-account
+2022-12-21 10:29:40,300 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: uma_authorization
+2022-12-21 10:29:40,300 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: view-profile
+2022-12-21 10:29:40,301 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-41) [ROLE] name is: offline_access
+2022-12-21 10:29:53,968 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:53,989 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I57] supportsCredentialType(otp)
+2022-12-21 10:29:54,061 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:54,061 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:54,061 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:29:54,078 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:54,079 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I41] getUserByUsername(dora)
+2022-12-21 10:29:54,081 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:54,082 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I41] getUserByUsername(dora)
+2022-12-21 10:29:54,083 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:54,083 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [I41] getUserByUsername(dora)
+2022-12-21 10:29:54,094 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: manage-account
+2022-12-21 10:29:54,094 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: uma_authorization
+2022-12-21 10:29:54,095 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: view-profile
+2022-12-21 10:29:54,095 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: offline_access
+2022-12-21 10:29:54,098 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:29:54,098 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [I41] getUserByUsername(dora)
+2022-12-21 10:29:54,109 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: manage-account
+2022-12-21 10:29:54,109 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: uma_authorization
+2022-12-21 10:29:54,110 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: view-profile
+2022-12-21 10:29:54,111 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-52) [ROLE] name is: offline_access
+2022-12-21 10:29:54,129 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [ROLE] name is: manage-account
+2022-12-21 10:29:54,129 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [ROLE] name is: uma_authorization
+2022-12-21 10:29:54,130 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [ROLE] name is: view-profile
+2022-12-21 10:29:54,131 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [ROLE] name is: offline_access
+2022-12-21 10:29:54,158 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: manage-account
+2022-12-21 10:29:54,158 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: uma_authorization
+2022-12-21 10:29:54,159 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: view-profile
+2022-12-21 10:29:54,159 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: offline_access
+2022-12-21 10:30:24,885 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:30:24,907 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [I57] supportsCredentialType(otp)
+2022-12-21 10:30:24,973 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:30:24,985 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [I35] getUserById(f:bdd6fcb6-a96f-4876-8bcc-cde84dd4d0f6:dora)
+2022-12-21 10:30:24,986 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [I41] getUserByUsername(dora)
+2022-12-21 10:30:24,996 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: manage-account
+2022-12-21 10:30:24,996 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: uma_authorization
+2022-12-21 10:30:24,997 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: view-profile
+2022-12-21 10:30:24,999 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-54) [ROLE] name is: offline_access
+2022-12-21 10:30:27,490 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:30:27,504 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I57] supportsCredentialType(otp)
+2022-12-21 10:30:54,848 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:31:01,833 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-52) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:31:19,516 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:31:19,533 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I113] getUsers: realm=farm
+2022-12-21 10:34:16,218 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\04\e3530f3ffb5be5df0a99062d536e3c4f5496bb\content
+2022-12-21 10:34:16,223 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:34:16,227 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 10:34:16,228 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:34:16,390 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:34:16,391 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:34:16,398 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-4) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:34:16,429 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:34:16,430 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\5a\a9e0159d8cb42c3426d576aba8be61ddbc496d\content
+2022-12-21 10:34:22,251 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I84] Testing connection...
+2022-12-21 10:34:22,252 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I92] Connection OK !
+2022-12-21 10:34:22,254 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-54) [I99] onCreate()
+2022-12-21 10:34:24,052 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-56) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:34:24,064 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [I113] getUsers: realm=farm
+2022-12-21 10:34:24,949 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-56) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:34:24,964 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [I35] getUserById(f:bff2dbb4-d9aa-4da4-8173-6813666bc055:dora)
+2022-12-21 10:34:24,964 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [I41] getUserByUsername(dora)
+2022-12-21 10:34:24,983 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [GROUP] name: ss
+2022-12-21 10:34:24,989 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [I35] getUserById(f:bff2dbb4-d9aa-4da4-8173-6813666bc055:dora)
+2022-12-21 10:34:24,989 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-56) [I41] getUserByUsername(dora)
+2022-12-21 10:34:25,018 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-56) SQL Error: 2627, SQLState: 23000
+2022-12-21 10:34:25,018 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-56) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , ss).
+2022-12-21 10:37:06,851 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\f9\39a8f6d74dcb7cbd8fc77f1901a894fc915f32\content
+2022-12-21 10:37:06,855 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-7) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:37:06,859 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 10:37:06,859 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:37:07,049 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:37:07,050 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-7) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:37:07,057 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-7) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:37:07,090 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:37:07,091 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\04\e3530f3ffb5be5df0a99062d536e3c4f5496bb\content
+2022-12-21 10:37:12,635 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-56) [I84] Testing connection...
+2022-12-21 10:37:12,637 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-56) [I92] Connection OK !
+2022-12-21 10:37:12,639 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-56) [I99] onCreate()
+2022-12-21 10:37:15,301 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:37:15,312 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I113] getUsers: realm=farm
+2022-12-21 10:37:16,146 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:37:16,163 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I35] getUserById(f:5f7aa674-1107-4bf8-970b-1edf2caecd5a:dora)
+2022-12-21 10:37:16,163 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I41] getUserByUsername(dora)
+2022-12-21 10:37:16,174 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-55) Uncaught server error: java.lang.NullPointerException
+	at org.keycloak.keycloak-model-jpa@16.1.1//org.keycloak.storage.jpa.JpaUserFederatedStorageProvider.joinGroup(JpaUserFederatedStorageProvider.java:443)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.adapter.AbstractUserAdapterFederatedStorage.joinGroup(AbstractUserAdapterFederatedStorage.java:139)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.mapGetUser(CustomUserStorageProvider.java:323)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserByUsername(CustomUserStorageProvider.java:246)
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getUserById(CustomUserStorageProvider.java:53)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.user.UserLookupProvider.getUserById(UserLookupProvider.java:44)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.storage.UserStorageManager.getUserById(UserStorageManager.java:287)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.models.cache.infinispan.UserCacheSession.getUserById(UserCacheSession.java:207)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.resources.admin.UsersResource.user(UsersResource.java:223)
+	at jdk.internal.reflect.GeneratedMethodAccessor692.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.constructLocator(ResourceLocatorInvoker.java:107)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.resolveTargetFromLocator(ResourceLocatorInvoker.java:87)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:148)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:152)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:183)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:32)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:492)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:249)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:60)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.5.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2022-12-21 10:37:52,260 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\e5\3467a8d078e98c01fbd93dbb74d8fb6f5789e9\content
+2022-12-21 10:37:52,263 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:37:52,267 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 5ms
+2022-12-21 10:37:52,267 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:37:52,427 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:37:52,428 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-4) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:37:52,436 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-4) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:37:52,477 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:37:52,479 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\f9\39a8f6d74dcb7cbd8fc77f1901a894fc915f32\content
+2022-12-21 10:37:58,305 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I84] Testing connection...
+2022-12-21 10:37:58,307 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I92] Connection OK !
+2022-12-21 10:37:58,309 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I99] onCreate()
+2022-12-21 10:38:00,269 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-57) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:38:00,281 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [I113] getUsers: realm=farm
+2022-12-21 10:38:00,988 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-57) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:38:01,003 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [I35] getUserById(f:29819b0d-276e-42ea-9425-28aa585ed6ca:dora)
+2022-12-21 10:38:01,003 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [I41] getUserByUsername(dora)
+2022-12-21 10:38:01,016 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [GROUP] name: studentGroup
+2022-12-21 10:38:01,022 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [I35] getUserById(f:29819b0d-276e-42ea-9425-28aa585ed6ca:dora)
+2022-12-21 10:38:01,022 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-57) [I41] getUserByUsername(dora)
+2022-12-21 10:40:27,837 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\ae\eb820becaca8a248b1ae2f0d0ce0bef8918a28\content
+2022-12-21 10:40:27,839 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:40:27,844 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 6ms
+2022-12-21 10:40:27,848 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:40:28,113 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:40:28,114 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:40:28,123 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-1) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:40:28,153 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:40:28,154 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\e5\3467a8d078e98c01fbd93dbb74d8fb6f5789e9\content
+2022-12-21 10:40:32,629 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-58) [I84] Testing connection...
+2022-12-21 10:40:32,630 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-58) [I92] Connection OK !
+2022-12-21 10:40:32,632 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-58) [I99] onCreate()
+2022-12-21 10:40:39,618 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-58) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:40:39,630 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [I113] getUsers: realm=farm
+2022-12-21 10:40:40,376 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-58) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:40:40,391 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [I35] getUserById(f:e0eadca5-0686-492d-88e0-4ebaecf3ccb8:dora)
+2022-12-21 10:40:40,391 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [I41] getUserByUsername(dora)
+2022-12-21 10:40:40,404 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [GROUP] name: salty2
+2022-12-21 10:40:40,410 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [I35] getUserById(f:e0eadca5-0686-492d-88e0-4ebaecf3ccb8:dora)
+2022-12-21 10:40:40,410 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-58) [I41] getUserByUsername(dora)
+2022-12-21 10:53:24,925 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\54\75da617fb3edff90a9c7b082cb50b541da0a18\content
+2022-12-21 10:53:24,934 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-6) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:53:24,938 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 10:53:24,939 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:53:25,082 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:53:25,083 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-7) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:53:25,094 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-7) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:53:25,131 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:53:25,133 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\ae\eb820becaca8a248b1ae2f0d0ce0bef8918a28\content
+2022-12-21 10:53:32,937 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-59) [I84] Testing connection...
+2022-12-21 10:53:32,938 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-59) [I92] Connection OK !
+2022-12-21 10:53:32,940 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-59) [I99] onCreate()
+2022-12-21 10:53:35,349 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-59) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:53:35,362 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [I113] getUsers: realm=farm
+2022-12-21 10:53:36,258 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-59) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:53:36,272 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [I35] getUserById(f:500e1510-bff8-4eb5-8631-37d6de661ee9:dora)
+2022-12-21 10:53:36,273 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [I41] getUserByUsername(dora)
+2022-12-21 10:53:36,290 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [GROUP] name: salty2
+2022-12-21 10:53:36,298 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [I35] getUserById(f:500e1510-bff8-4eb5-8631-37d6de661ee9:dora)
+2022-12-21 10:53:36,298 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-59) [I41] getUserByUsername(dora)
+2022-12-21 10:53:36,310 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-59) SQL Error: 2627, SQLState: 23000
+2022-12-21 10:53:36,311 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-59) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , salty2).
+2022-12-21 10:57:30,695 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\71\d08e31fdd808372f2aa17ffcdd182c0245ffc0\content
+2022-12-21 10:57:30,698 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:57:30,702 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 10:57:30,704 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 10:57:30,944 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 10:57:30,945 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-5) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 10:57:30,954 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-5) [I24] CustomUserStorageProviderFactory created
+2022-12-21 10:57:30,984 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 10:57:30,986 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\54\75da617fb3edff90a9c7b082cb50b541da0a18\content
+2022-12-21 10:57:39,442 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I84] Testing connection...
+2022-12-21 10:57:39,443 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I92] Connection OK !
+2022-12-21 10:57:39,445 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I99] onCreate()
+2022-12-21 10:57:41,566 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:57:41,581 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I113] getUsers: realm=farm
+2022-12-21 10:57:42,417 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-55) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:57:42,432 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I35] getUserById(f:5c898fb3-d20e-4019-a265-a07a0900eba8:dora)
+2022-12-21 10:57:42,433 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I41] getUserByUsername(dora)
+2022-12-21 10:57:42,447 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [GROUP] name: salty2
+2022-12-21 10:57:42,454 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I35] getUserById(f:5c898fb3-d20e-4019-a265-a07a0900eba8:dora)
+2022-12-21 10:57:42,454 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-55) [I41] getUserByUsername(dora)
+2022-12-21 10:58:02,274 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 10:58:02,297 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-61) Uncaught server error: com.fasterxml.jackson.databind.JsonMappingException: class org.keycloak.utils.ClosingStream cannot be cast to class java.util.List (org.keycloak.utils.ClosingStream is in unnamed module of loader 'org.keycloak.keycloak-server-spi-private@16.1.1' @eeca0d9; java.util.List is in module java.base of loader 'bootstrap')
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._wrapAsIOE(DefaultSerializerProvider.java:509)
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:482)
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510)
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.jboss.resteasy.resteasy-jackson2-provider@4.7.4.Final//org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider.writeTo(ResteasyJackson2Provider.java:345)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.messagebody.AsyncBufferedMessageBodyWriter.asyncWriteTo(AsyncBufferedMessageBodyWriter.java:24)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.ServerWriterInterceptorContext.writeTo(ServerWriterInterceptorContext.java:87)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.AbstractWriterInterceptorContext.asyncProceed(AbstractWriterInterceptorContext.java:203)
+	at org.jboss.resteasy.resteasy-crypto@4.7.4.Final//org.jboss.resteasy.security.doseta.DigitalSigningInterceptor.asyncAroundWriteTo(DigitalSigningInterceptor.java:169)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.AbstractWriterInterceptorContext.asyncProceed(AbstractWriterInterceptorContext.java:211)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.AbstractWriterInterceptorContext.getStarted(AbstractWriterInterceptorContext.java:166)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.ServerWriterInterceptorContext.lambda$getStarted$0(ServerWriterInterceptorContext.java:73)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.ServerWriterInterceptorContext.aroundWriteTo(ServerWriterInterceptorContext.java:93)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.ServerWriterInterceptorContext.getStarted(ServerWriterInterceptorContext.java:73)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ServerResponseWriter.lambda$writeNomapResponse$3(ServerResponseWriter.java:163)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.ContainerResponseContextImpl.filter(ContainerResponseContextImpl.java:404)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ServerResponseWriter.executeFilters(ServerResponseWriter.java:252)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:101)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:74)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.writeResponse(SynchronousDispatcher.java:594)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:524)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:261)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:161)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:364)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:247)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:249)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:60)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
+	at org.keycloak.keycloak-wildfly-extensions@16.1.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@1.18.3.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@1.10.1.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.14.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:79)
+	at io.undertow.servlet@2.2.14.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.14.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.5.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassCastException: class org.keycloak.utils.ClosingStream cannot be cast to class java.util.List (org.keycloak.utils.ClosingStream is in unnamed module of loader 'org.keycloak.keycloak-server-spi-private@16.1.1' @eeca0d9; java.util.List is in module java.base of loader 'bootstrap')
+	at deployment.jdbc-user-provider-1.0.0.jar//gov.twk.auth.provider.user.CustomUserStorageProvider.getGroupMembers(CustomUserStorageProvider.java:191)
+	at org.keycloak.keycloak-server-spi@16.1.1//org.keycloak.storage.user.UserQueryProvider.getGroupMembersStream(UserQueryProvider.java:455)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.storage.UserStorageManager.lambda$getGroupMembersStream$15(UserStorageManager.java:323)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.storage.UserStorageManager.lambda$query$6(UserStorageManager.java:226)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:271)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:502)
+	at com.fasterxml.jackson.datatype.jackson-datatype-jdk8@2.12.3//com.fasterxml.jackson.datatype.jdk8.StreamSerializer.serialize(StreamSerializer.java:71)
+	at com.fasterxml.jackson.datatype.jackson-datatype-jdk8@2.12.3//com.fasterxml.jackson.datatype.jdk8.StreamSerializer.serialize(StreamSerializer.java:15)
+	at com.fasterxml.jackson.core.jackson-databind@2.12.3//com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	... 80 more
+
+2022-12-21 11:02:11,728 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\5c\5cb0467e5cda41788c481c7f3446a3f76648c1\content
+2022-12-21 11:02:11,732 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-3) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 11:02:11,736 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 7ms
+2022-12-21 11:02:11,738 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 11:02:11,887 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 11:02:11,888 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-1) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 11:02:11,894 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-1) [I24] CustomUserStorageProviderFactory created
+2022-12-21 11:02:11,924 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 11:02:11,926 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\71\d08e31fdd808372f2aa17ffcdd182c0245ffc0\content
+2022-12-21 11:02:18,421 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I84] Testing connection...
+2022-12-21 11:02:18,422 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I92] Connection OK !
+2022-12-21 11:02:18,424 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I99] onCreate()
+2022-12-21 11:02:20,928 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:02:20,940 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I113] getUsers: realm=farm
+2022-12-21 11:02:21,684 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:02:21,702 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I35] getUserById(f:092c5143-c196-4cbe-82c5-afc5085074b0:dora)
+2022-12-21 11:02:21,702 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I41] getUserByUsername(dora)
+2022-12-21 11:02:21,714 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [GROUP] name: salty
+2022-12-21 11:02:21,719 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I35] getUserById(f:092c5143-c196-4cbe-82c5-afc5085074b0:dora)
+2022-12-21 11:02:21,720 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I41] getUserByUsername(dora)
+2022-12-21 11:02:21,728 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-61) SQL Error: 2627, SQLState: 23000
+2022-12-21 11:02:21,728 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-61) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , salty).
+2022-12-21 11:04:42,358 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\development\keycloak-16.1.1\standalone\data\content\26\c03a4d299a855e6d6794bfec663577638fdeae\content
+2022-12-21 11:04:42,362 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-2) Undeploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 11:04:42,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment jdbc-user-provider-1.0.0.jar (runtime-name: jdbc-user-provider-1.0.0.jar) in 6ms
+2022-12-21 11:04:42,366 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "jdbc-user-provider-1.0.0.jar" (runtime-name: "jdbc-user-provider-1.0.0.jar")
+2022-12-21 11:04:42,593 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.jdbc-user-provider-1.0.0.jar" is using a private module ("org.keycloak.keycloak-services") which may be changed or removed in future versions without notice.
+2022-12-21 11:04:42,594 INFO  [org.keycloak.subsystem.server.extension.KeycloakProviderDeploymentProcessor] (MSC service thread 1-8) Deploying Keycloak provider: jdbc-user-provider-1.0.0.jar
+2022-12-21 11:04:42,600 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (MSC service thread 1-8) [I24] CustomUserStorageProviderFactory created
+2022-12-21 11:04:42,643 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "jdbc-user-provider-1.0.0.jar" with deployment "jdbc-user-provider-1.0.0.jar"
+2022-12-21 11:04:42,645 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\development\keycloak-16.1.1\standalone\data\content\5c\5cb0467e5cda41788c481c7f3446a3f76648c1\content
+2022-12-21 11:04:51,981 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I84] Testing connection...
+2022-12-21 11:04:51,982 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I92] Connection OK !
+2022-12-21 11:04:51,984 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-62) [I99] onCreate()
+2022-12-21 11:04:58,111 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-64) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:04:58,124 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I113] getUsers: realm=farm
+2022-12-21 11:05:02,375 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-64) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:05:02,389 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:dora)
+2022-12-21 11:05:02,390 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I41] getUserByUsername(dora)
+2022-12-21 11:05:02,405 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [GROUP] name: salty
+2022-12-21 11:05:02,405 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [GROUP] name: studentGroup
+2022-12-21 11:05:02,410 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:dora)
+2022-12-21 11:05:02,410 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I41] getUserByUsername(dora)
+2022-12-21 11:05:02,420 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-64) SQL Error: 2627, SQLState: 23000
+2022-12-21 11:05:02,421 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-64) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , salty).
+2022-12-21 11:05:06,461 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:05:06,471 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I113] getUsers: realm=farm
+2022-12-21 11:05:09,433 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:05:09,447 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:kiki)
+2022-12-21 11:05:09,448 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I41] getUserByUsername(kiki)
+2022-12-21 11:05:09,461 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [GROUP] name: salty
+2022-12-21 11:05:09,461 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [GROUP] name: studentGroup
+2022-12-21 11:05:09,468 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:kiki)
+2022-12-21 11:05:09,469 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I41] getUserByUsername(kiki)
+2022-12-21 11:05:09,480 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-61) SQL Error: 2627, SQLState: 23000
+2022-12-21 11:05:09,481 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-61) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , salty).
+2022-12-21 11:06:19,749 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:06:32,098 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:06:52,340 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-61) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:06:52,356 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-61) [I113] getUsers: realm=farm
+2022-12-21 11:06:55,067 INFO  [gov.twk.auth.provider.user.CustomUserStorageProviderFactory] (default task-64) [I63] creating new CustomUserStorageProvider
+2022-12-21 11:06:55,082 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:dora)
+2022-12-21 11:06:55,082 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I41] getUserByUsername(dora)
+2022-12-21 11:06:55,097 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [GROUP] name: salty
+2022-12-21 11:06:55,097 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [GROUP] name: studentGroup
+2022-12-21 11:06:55,103 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I35] getUserById(f:41546997-6f7f-4624-aad8-8e0cfe692eb9:dora)
+2022-12-21 11:06:55,103 INFO  [gov.twk.auth.provider.user.CustomUserStorageProvider] (default task-64) [I41] getUserByUsername(dora)
+2022-12-21 11:06:55,126 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-64) SQL Error: 2627, SQLState: 23000
+2022-12-21 11:06:55,126 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-64) Violation of UNIQUE KEY constraint 'SIBLING_NAMES'. Cannot insert duplicate key in object 'dbo.KEYCLOAK_GROUP'. The duplicate key value is (farm,  , salty).

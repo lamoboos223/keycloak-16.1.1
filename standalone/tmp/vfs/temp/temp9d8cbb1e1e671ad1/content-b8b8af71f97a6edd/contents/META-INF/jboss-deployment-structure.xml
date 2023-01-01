@@ -1,0 +1,9 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <module name="com.microsoft" />
+            <module name="com.postgres" />
+            <module name="org.apache.commons.codec" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
