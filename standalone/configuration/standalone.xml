@@ -111,11 +111,23 @@
                         <password>Keycloak@123</password>
                     </security>
                 </datasource>
+                <datasource jndi-name="java:jboss/datasources/PostgresDS" pool-name="PostgresDS" enabled="true" use-java-context="true" statistics-enabled="${wildfly.datasources.statistics-enabled:${wildfly.statistics-enabled:false}}">
+                    <connection-url>jdbc:postgresql://localhost:5432/keycloak</connection-url>
+                    <driver>postgres</driver>
+                    <security>
+                        <user-name>postgres</user-name>
+                        <password>postgres</password>
+                    </security>
+                </datasource>
                 <drivers>
                     <driver name="sqlserver" module="com.microsoft">
                         <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
                         <xa-datasource-class>com.microsoft.sqlserver.jdbc.SQLServerXADataSource</xa-datasource-class>
                     </driver>
+                    <driver name="postgres" module="com.postgres">
+                        <driver-class>org.postgresql.Driver</driver-class>
+                        <xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
+                    </driver> 
                 </drivers>
             </datasources>
         </subsystem>
